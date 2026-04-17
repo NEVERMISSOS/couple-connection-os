@@ -1,1 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Couple Connection OS</title>
 
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at top, #1a1a2e, #0f0f14);
+    color: white;
+    overflow-x: hidden;
+}
+
+/* HERO */
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #ff4d8d, #6c5cff);
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 28px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 20px;
+    border-radius: 14px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.08);
+}
+
+.highlight {
+    color: #ff4d8d;
+}
+
+/* PRICING */
+.pricing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.price-card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 14px;
+    padding: 25px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.price {
+    font-size: 28px;
+    margin: 10px 0;
+    color: #ff4d8d;
+}
+
+/* DEMO UI MOCK */
+.mock {
+    background: #11121a;
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.bar {
+    height: 10px;
+    background: #2a2a3a;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.bar-fill {
+    height: 10px;
+    background: linear-gradient(90deg, #ff4d8d, #6c5cff);
+    border-radius: 5px;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #6c5cff, #ff4d8d);
+}
+
+input {
+    padding: 12px;
+    width: 280px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    opacity: 0.6;
+    font-size: 13px;
+}
+
+.pill {
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 20px;
+    margin: 4px;
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Couple Connection OS</h1>
+    <p>
+        The AI Relationship Operating System that translates emotions, resolves conflict,
+        and builds stronger relationships through structured daily connection.
+    </p>
+    <a class="btn" href="#waitlist">Join Early Access</a>
+</div>
+
+<!-- PROBLEM -->
+<section>
+    <h2>The Problem</h2>
+    <div class="grid">
+        <div class="card">Miscommunication destroys emotional connection</div>
+        <div class="card">Couples lack structured emotional systems</div>
+        <div class="card">Conflict escalates instead of resolving</div>
+        <div class="card">Relationships rely on guesswork, not clarity</div>
+    </div>
+</section>
+
+<!-- SOLUTION -->
+<section>
+    <h2>The Solution</h2>
+    <div class="card">
+        <p>
+            <span class="highlight">Couple Connection OS</span> transforms relationships into a guided system
+            powered by AI emotional translation, daily rituals, and behavioral insights.
+        </p>
+    </div>
+</section>
+
+<!-- CORE SYSTEM -->
+<section>
+    <h2>Core AI System</h2>
+    <div class="grid">
+        <div class="card">🧠 Calm Translator AI</div>
+        <div class="card">💞 Relationship Lifecycle Engine</div>
+        <div class="card">📊 Emotional Weather Forecasting</div>
+        <div class="card">💬 Daily Ritual System</div>
+        <div class="card">📖 Memory Vault Timeline</div>
+        <div class="card">💝 Marketplace Engine</div>
+    </div>
+</section>
+
+<!-- DEMO -->
+<section>
+    <h2>Live System Preview</h2>
+
+    <div class="mock">
+        <h3 style="margin-bottom:10px;">Relationship Health Dashboard</h3>
+
+        <p>Communication</p>
+        <div class="bar"><div class="bar-fill" style="width:80%"></div></div>
+
+        <p>Emotional Connection</p>
+        <div class="bar"><div class="bar-fill" style="width:70%"></div></div>
+
+        <p>Shared Time</p>
+        <div class="bar"><div class="bar-fill" style="width:60%"></div></div>
+
+        <p style="margin-top:15px; opacity:0.8;">
+            AI Insight: “A shared activity this week may improve emotional alignment.”
+        </p>
+    </div>
+</section>
+
+<!-- HOW AI WORKS -->
+<section>
+    <h2>How AI Works</h2>
+    <div class="card">
+        <p>
+            The system analyzes both partners independently, extracts emotional intent,
+            detects misalignment, and generates a neutral shared understanding.
+        </p>
+        <br/>
+        <span class="pill">Emotion Analysis</span>
+        <span class="pill">Conflict Translation</span>
+        <span class="pill">Behavior Mapping</span>
+        <span class="pill">Personalized Guidance</span>
+    </div>
+</section>
+
+<!-- LIFECYCLE -->
+<section>
+    <h2>Relationship Lifecycle Engine</h2>
+    <div class="grid">
+        <div class="card">Single → Self Discovery</div>
+        <div class="card">Building → Connection Phase</div>
+        <div class="card">Growth → Stability Phase</div>
+        <div class="card">Conflict → AI Mediation Mode</div>
+        <div class="card">Healing → Recovery System</div>
+        <div class="card">Future → Readiness Mode</div>
+    </div>
+</section>
+
+<!-- PRICING -->
+<section>
+    <h2>Pricing</h2>
+    <div class="pricing">
+
+        <div class="price-card">
+            <h3>Free</h3>
+            <div class="price">$0</div>
+            <p>Basic relationship tools</p>
+            <p>Daily check-ins</p>
+            <p>Love notes</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Premium</h3>
+            <div class="price">$12/mo</div>
+            <p>AI Calm Translator</p>
+            <p>Relationship insights</p>
+            <p>Memory Vault</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Couple Pro</h3>
+            <div class="price">$24/mo</div>
+            <p>Full AI system</p>
+            <p>Marketplace access</p>
+            <p>Advanced emotional coaching</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- MARKETPLACE -->
+<section>
+    <h2>Experience Marketplace</h2>
+    <div class="card">
+        <p>
+            AI recommends real-world experiences, gifts, and date ideas based on emotional state,
+            preferences, and location. Monetized through affiliate partnerships.
+        </p>
+    </div>
+</section>
+
+<!-- INVESTOR -->
+<section>
+    <h2>Why This Wins</h2>
+    <div class="grid">
+        <div class="card">Daily emotional engagement loop</div>
+        <div class="card">High retention AI system</div>
+        <div class="card">Multiple monetization streams</div>
+        <div class="card">Viral couple sharing loop</div>
+        <div class="card">Subscription SaaS model</div>
+        <div class="card">Expanding relationship OS category</div>
+    </div>
+</section>
+
+<!-- CTA -->
+<div id="waitlist" class="cta">
+    <h2>Join Early Access</h2>
+    <p>Be one of the first couples to experience AI-powered relationships.</p>
+
+    <br/>
+
+    <input type="email" placeholder="Enter your email"/>
+    <button>Join Waitlist</button>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    © 2026 Couple Connection OS — Relationship Intelligence Platform
+</div>
+
+</body>
+</html>
